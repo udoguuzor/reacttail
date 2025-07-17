@@ -1,15 +1,31 @@
 import React from "react";
-import Hero from "./Header";
+import Header from "./Header";
+import LeftCardLine from "./LeftCard";
+import MainCard from "./mainCard";
+//  import MainCard from "./assets/mainCard.jpg"
+import LeftBar from "./leftsidebar";
+
+
+
 
 
 
 const App: React.FC=()=>{
   return(
     <>
-    <Hero/>
+   <Header/>
+   <LeftBar/>
+   <LeftCardLine/>
+    <MainCard/>
 
+   
+   
+
+   
     </>
   )
 }
+
+
 
 export default App
